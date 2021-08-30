@@ -858,6 +858,13 @@ namespace NpcProtector
                 // Patch NPCs
                 var npcPatch = state.PatchMod.Npcs.GetOrAddAsOverride(npc);
                 npcPatch.Configuration.Flags |= NpcConfiguration.Flag.Protected;
+		    
+		if (npcPatch.Name != null && npcPatch.Name.TryLookup(Language.French, out string i18nNpcName)) {
+		    npcPatch.Name = i18nNpcName;
+		}
+		if (npcPatch.ShortName != null && npcPatch.ShortName.TryLookup(Language.French, out string i18nNpcShortName)) {
+		    npcPatch.ShortName = i18nNpcShortName;
+		}
 
                 // Handle error of NPC not being flagged as protected after it should have been
                 if (!npcPatch.Configuration.Flags.HasFlag(NpcConfiguration.Flag.Protected))
