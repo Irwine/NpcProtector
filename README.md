@@ -6,6 +6,9 @@ Patcher Synthesis qui marquer les PNJ nommés de Skyrim comme protégés
 
 Ce patcheur a été inspiré par [Protect your People - PyP - Better NPC Protection SE](https://www.nexusmods.com/skyrimspecialedition/mods/10297) il marque les mêmes PNJs comme protégés comme la version Legacy de ce mod, je pourrais ajouter les PNJs de Cutting Room Floor dans le futur, mais je n'utilise pas ce mod.
 
+
+`Contrairement à la VO, j'ai ajouté les pnjs de cutting room floor`
+
 ## Comment ça marche
 
 Le patcheur a une simple liste des EditorIDs de tous les PNJs nommés qui devraient être marqués comme protégés.
