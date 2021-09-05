@@ -1,16 +1,22 @@
-# NpcProtector
+# Npc Protector
 
-Synthesis Patcher to flag named Skyrim NPCs as protected
+Patcher Synthesis qui marquer les PNJ nommés de Skyrim comme protégés
 
 ## Inspiration
 
-This patcher was inspired by [Protect your People - PyP - Better NPC Protection SE](https://www.nexusmods.com/skyrimspecialedition/mods/10297) it flags the same NPCs as protected as the Legacy version of this mod, I might add Cutting Room Floor NPCs in the future, but I don't use that mod myself.
+Ce patcheur a été inspiré par [Protect your People - PyP - Better NPC Protection SE](https://www.nexusmods.com/skyrimspecialedition/mods/10297) il marque les mêmes PNJs comme protégés comme la version Legacy de ce mod, je pourrais ajouter les PNJs de Cutting Room Floor dans le futur, mais je n'utilise pas ce mod.
 
-## How it works
+## Comment ça marche
 
-The patcher has a simple list of EditorIDs of all named NPCs that should be flagged as protected.
-During patching, it goes through all NPCs and checks if they are in the list and if they are not already flagged as essential or protected, then it copies the record and adds the protected flag to the NPC.
+Le patcheur a une simple liste des EditorIDs de tous les PNJs nommés qui devraient être marqués comme protégés.
+Pendant le patching, il passe en revue tous les PNJs et vérifie s'ils sont dans la liste et s'ils ne sont pas déjà marqués comme essentiels ou protégés, alors il copie l'enregistrement et ajoute le flag protégé au PNJ.
 
 ## Expansion
 
-If you want to add NPCs, you have to add them to the source code at the moment, in the future, I hope to extract them to a separate file that users can easily modify, that is if I can be bothered since I am lazy.
+Si vous voulez ajouter des PNJ, vous devez les ajouter au code source pour le moment, à l'avenir, j'espère les extraire dans un fichier séparé que les utilisateurs pourront facilement modifier, c'est à dire si je me donne la peine car je suis paresseux.
+
+## Version à utiliser
+0.30.4 et 0.19.2
+
+# Crédits
+Un très grand merci à Phlasriel qui a gentiment modifié le code pour qu'il fonctionne avec les particularités de la langue française.
